@@ -1,0 +1,26 @@
+# Never publish source/binaries for showcase repo
+*.py
+*.exe
+*.dll
+*.pyd
+*.zip
+
+# Build artifacts
+build/
+dist/
+*.dist/
+*.build/
+*.onefile-build/
+nuitka-crash-report.xml
+
+# Logs
+*.log
+*.txt
+
+# OS/IDE
+__pycache__/
+.venv/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
